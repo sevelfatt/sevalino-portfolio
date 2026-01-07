@@ -9,7 +9,7 @@ export const projectsData = [
         title: "Sumify: PDF AI-Powered Summarizer",
         description: "Sumify is an AI-powered web app that helps you quickly and accurately summarize and understand PDF documents",
         image: project1Image,
-        link: "https://sumify.tehdeveloper.com/"
+        link: "https://github.com/ELfatt09/sumify"
     },
     {
         id: 2,
