@@ -1,7 +1,9 @@
+import { desc } from 'motion/react-client';
 import project1Image from '../assets/projects/project-1.png';
 import project2Image from '../assets/projects/project-2.png';
 import project3Image from '../assets/projects/project-3.png';
 import project4Image from '../assets/projects/project-4.jpg';
+import project5Image from '../assets/projects/project-5.png';
 
 export const projectsData = [
     {
@@ -31,5 +33,12 @@ export const projectsData = [
         description: "A simple news mobile application that provides users with the latest news articles from various sources, allowing them to stay informed on current events.",
         image: project4Image,
         link: "https://github.com/ELfatt09/idn-newsapp/"
+    },
+    {
+        id: 5,
+        title: "CLI AI Code Assistant",
+        description: "A CLI tool built using Python that uses Gemini AI API to generate abnd fix code based on user input.",
+        image: project5Image,
+        link: "https://github.com/ELfatt09/cli-ai-coder-agent-python"
     }
 ]
