@@ -3,6 +3,7 @@ import Hero from '../sections/Home/Hero'
 import AboutUs from '../sections/Home/AboutUs'
 import Experiences from '../sections/Home/Experiences'
 import Projects from '../sections/Home/Projects'
+import Certifications from '../sections/Home/Certifications'
 import Contacts from '../sections/Home/Contacts'
 import Footer from '../sections/Home/Footer'
 
@@ -13,6 +14,7 @@ function Home() {
         <AboutUs />
         <Experiences />
         <Projects />
+        <Certifications />
         <Contacts />
         <Footer />
       </main>

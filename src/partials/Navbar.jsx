@@ -12,6 +12,7 @@ function Navbar() {
     { href: "#about", label: "About Me" },
     { href: "#experiences", label: "Experiences" },
     { href: "#projects", label: "Projects" },
+    { href: "#certifications", label: "Certifications" },
   ];
 
   return (
