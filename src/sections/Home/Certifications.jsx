@@ -23,17 +23,11 @@ function Certifications() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
                 <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }}
-                    viewport={{ once: true }}
-                    className='flex flex-col space-y-2 md:space-y-4 w-fit mx-auto relative z-10'
-                >
-                    <div className="flex items-center justify-center gap-4">
-                        <div className="hidden md:block w-12 h-px bg-linear-to-r from-transparent to-primary" />
-                        <h2 className='text-3xl md:text-5xl text-center uppercase tracking-[0.3em] font-black'>Certifications</h2>
-                        <div className="hidden md:block w-12 h-px bg-linear-to-l from-transparent to-primary" />
-                    </div>
-                    <div className='w-full h-1 bg-linear-to-r from-transparent via-primary to-transparent rounded-full opacity-50' />
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
+                    className='flex flex-col space-y-1 md:space-y-3 w-fit justify-start '>
+                    <h2 className='text-2xl md:text-4xl '>My Certifications</h2>
+                    <div className='w-1/3 h-1 bg-primary rounded-full' />
                 </motion.div>
 
                 <motion.div 

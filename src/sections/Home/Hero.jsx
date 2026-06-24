@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionLayout from '../../layout/SectionLayout'
 import TypingEffectText from '../../components/TypingEffectText'
-import cv from '../../assets/docments/cv_programmer_sevalino.pdf'
+import cv from '../../assets/documents/CV_software_engineer_sevalino.pdf'
 import Scene from '../../components/Scene'
 
 function Hero() {
